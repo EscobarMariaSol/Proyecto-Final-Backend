@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; }
+#messages { list-style-type: none; padding: 0; }
+#messages li { padding: 8px; margin-bottom: 2px; background-color: #14ad61; display: flex; align-items: center; }
+#form { display: flex; }
+#input { flex: 1; padding: 10px; }
+#button { padding: 10px; }
+#nameForm { margin-bottom: 10px; }
+img { width: 30px; height: 30px; border-radius: 50%; margin-right: 10px; }
