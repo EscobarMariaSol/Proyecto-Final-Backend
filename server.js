@@ -13,8 +13,6 @@ const server = http.createServer(app);
 const io = socketIo(server);
 app.use(express.static('public'));
 
-const users = new Map();
-
 //Logica del chat
 io.on('connection', (socket) => {
     console.log('Un usuario se ha conectado');

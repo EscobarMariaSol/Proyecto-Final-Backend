@@ -1,8 +1,7 @@
 //Importo las herramientas para crear al cliente
-const io = require("socket.io-client");
-
-
+import io from "socket.io-client";
 const socket = io();
+
 
 // Logica para cargar la imagen del cliente
 
