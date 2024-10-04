@@ -1,5 +1,4 @@
-//Importo las herramientas para crear al cliente
-import io from "socket.io-client";
+
 const socket = io();
 
 
